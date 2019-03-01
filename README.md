@@ -36,9 +36,9 @@ Pelissä palikat voivat olla joko taustapalikoita tai kiinteitä palikoita. Kiin
 
 * BgAir
   * Pelin oletustausta palikka.
-* BgCastle ![Alt text](src/res/textures/bgcastlebrick.png?raw=true "bgcastlebrick")
+![Alt text](src/res/textures/bgcastlebrick.png?raw=true "bgcastlebrick") BgCastle 
   *	CastleBrick-palikan tyylinen taustapalikka
-* BgStone	![Alt text](src/res/textures/bgstone.png/?raw=true "bgcastlebrick")
+![Alt text](src/res/textures/bgstone.png/?raw=true "bgcastlebrick") BgStone	
   *	Luolissa käytettävä taustapalikka
 * Brick	
   *	Palikka, joka hajoaa kosketuksesta tietyn viiveen jälkeen. Palikan hajoamisnopeuteen vaikuttaa pelaajan valitsema vaikeusaste.
