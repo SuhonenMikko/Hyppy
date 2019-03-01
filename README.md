@@ -38,43 +38,43 @@ Pelissä palikat voivat olla joko taustapalikoita tai kiinteitä palikoita. Kiin
   * Pelin oletustausta palikka.
 * BgCastle
   *	CastleBrick-palikan tyylinen taustapalikka
-#### BgStone	
-*	Luolissa käytettävä taustapalikka
-#### Brick	
-*	Palikka, joka hajoaa kosketuksesta tietyn viiveen jälkeen. Palikan hajoamisnopeuteen vaikuttaa pelaajan valitsema vaikeusaste.
-#### CastleBrick	
-*	Linnoissa käytettävä kiinteä palikka ilman erityisominaisuuksia.
-#### Cloud
-*	Käytetään taivaalla leijuville palikoille, ei erityisominaisuuksia.	
-#### Coin	
-*	Kerättävä kolikko. Pelaajan täytyy kerätä kaikki kolikot aktivoidakseen maalin.
-*	Kolikoita ei generoida ”Easy”-vaikeusasteella.
-#### Dirt	
-*	Maassa käytetty kiinteä palikka, joka on ulkonäöltään mullan näköinen.
-#### ElevatorHor	
-*	Sivuttaissuunnassa liikkuva hissi-palikka. Palikka liikkuu hissin luonti kohdasta 5 palikkaa oikealle, minkä jälkeen hissin suunta vaihtuu käänteiseksi. Kun hissi saavuttaa luontisijaintinsa käännetään suunta uudelleen. Tämä sykli toistuu koko pelin ajan.
-#### ElevatorVer	
-*	Pystysuunnassa liikkuva hissi-palikka. Palikka liikkuu hissin luonti kohdasta 5 palikkaa alaspäin, minkä jälkeen hissin suunta vaihtuu käänteiseksi. Kun hissi saavuttaa luontisijaintinsa käännetään suunta uudelleen. Tämä sykli toistuu koko pelin ajan.
-#### Enemy	
-*	Palikka liikkuu luontisuunnasta 5 palikkaa oikealle, jonka jälkeen suunta vaihtuu käänteiseksi ja palikka jatkaa liikkumista vasemmalle, kunnes saavuttaa luontisijainnista 5 palikkaa vasemmalla olevan kohdan. Tämän jälkeen suunta vaihtuu uudelleen. Tämä sykli toistuu koko pelin ajan. Pelaajan koskettaessa Enemy-palikkaa peli päättyy.
-#### Goal	
-*	Pelin tavoitteena pelaajan on päästä mahdollisimman nopeasti kosketuksiin maali-palikkaan. Koskettaessa Goal-palikkaa peli päättyy ja nykyinen suoritusaika tallennetaan piste-ennätyksiin.
-#### Grass	
-*	Kiinteä palikka, jota käytetään maanpinnassa oleviin palikoihin, jos maan alla olevat palikat ovat Dirt-palikoita. Tällä saadaan luotua alue, jossa on multaa sekä ruohoa.
-#### Lava	
-*	Tappava laava. Pelaajan koskettaessa laavaa peli päättyy.
-#### LavaBrick	
-*	Ominaisuuksiltaan sama kuin Lava. Palikan tyyli poikkeaa lava-palikasta siten, että palikan ympärillä on kehykset. Palikkaa käytetään tilanteissa, missä laava ei ole maanpinnalla vaan esimerkiksi ilmassa.
-#### Pillar	
-*	Kiinteä palikka, jolla ei ole erityisominaisuuksia vaan ainoastaan oma tyylinsä.
-#### PillarTop	
-*	Kiinteä palikka, jolla ei ole erityisominaisuuksia vaan ainoastaan oma tyylinsä. Käytetään pylväiden ylimpänä palikkana.
-#### Player	
-*	Pelaaja-palikka, joka määrittelee mihin sijaintiin pelaaja luodaan kartan luontivaiheessa.
-#### Stone	
-*	Kiinteä palikka, jolla ei ole erityisominaisuuksia vaan ainoastaan oma tyylinsä.
-#### Torch	
-*	Taustapalikka, jota käytetään luolissa luomaan luolamainen tunnelma. Ei erityisominaisuuksia.
+* BgStone	
+  *	Luolissa käytettävä taustapalikka
+* Brick	
+  *	Palikka, joka hajoaa kosketuksesta tietyn viiveen jälkeen. Palikan hajoamisnopeuteen vaikuttaa pelaajan valitsema vaikeusaste.
+* CastleBrick	
+  *	Linnoissa käytettävä kiinteä palikka ilman erityisominaisuuksia.
+* Cloud
+  *	Käytetään taivaalla leijuville palikoille, ei erityisominaisuuksia.	
+* Coin	
+  *	Kerättävä kolikko. Pelaajan täytyy kerätä kaikki kolikot aktivoidakseen maalin.
+  *	Kolikoita ei generoida ”Easy”-vaikeusasteella.
+* Dirt	
+  *	Maassa käytetty kiinteä palikka, joka on ulkonäöltään mullan näköinen.
+* ElevatorHor	
+  *	Sivuttaissuunnassa liikkuva hissi-palikka. Palikka liikkuu hissin luonti kohdasta 5 palikkaa oikealle, minkä jälkeen hissin suunta vaihtuu käänteiseksi. Kun hissi saavuttaa luontisijaintinsa käännetään suunta uudelleen. Tämä sykli toistuu koko pelin ajan.
+* ElevatorVer	
+  *	Pystysuunnassa liikkuva hissi-palikka. Palikka liikkuu hissin luonti kohdasta 5 palikkaa alaspäin, minkä jälkeen hissin suunta vaihtuu käänteiseksi. Kun hissi saavuttaa luontisijaintinsa käännetään suunta uudelleen. Tämä sykli toistuu koko pelin ajan.
+* Enemy	
+  *	Palikka liikkuu luontisuunnasta 5 palikkaa oikealle, jonka jälkeen suunta vaihtuu käänteiseksi ja palikka jatkaa liikkumista vasemmalle, kunnes saavuttaa luontisijainnista 5 palikkaa vasemmalla olevan kohdan. Tämän jälkeen suunta vaihtuu uudelleen. Tämä sykli toistuu koko pelin ajan. Pelaajan koskettaessa Enemy-palikkaa peli päättyy.
+* Goal	
+  *	Pelin tavoitteena pelaajan on päästä mahdollisimman nopeasti kosketuksiin maali-palikkaan. Koskettaessa Goal-palikkaa peli päättyy ja nykyinen suoritusaika tallennetaan piste-ennätyksiin.
+* Grass	
+  *	Kiinteä palikka, jota käytetään maanpinnassa oleviin palikoihin, jos maan alla olevat palikat ovat Dirt-palikoita. Tällä saadaan luotua alue, jossa on multaa sekä ruohoa.
+* Lava	
+  *	Tappava laava. Pelaajan koskettaessa laavaa peli päättyy.
+* LavaBrick	
+  *	Ominaisuuksiltaan sama kuin Lava. Palikan tyyli poikkeaa lava-palikasta siten, että palikan ympärillä on kehykset. Palikkaa käytetään tilanteissa, missä laava ei ole maanpinnalla vaan esimerkiksi ilmassa.
+* Pillar	
+  *	Kiinteä palikka, jolla ei ole erityisominaisuuksia vaan ainoastaan oma tyylinsä.
+* PillarTop	
+  *	Kiinteä palikka, jolla ei ole erityisominaisuuksia vaan ainoastaan oma tyylinsä. Käytetään pylväiden ylimpänä palikkana.
+* Player	
+  *	Pelaaja-palikka, joka määrittelee mihin sijaintiin pelaaja luodaan kartan luontivaiheessa.
+* Stone	
+  *	Kiinteä palikka, jolla ei ole erityisominaisuuksia vaan ainoastaan oma tyylinsä.
+* Torch	
+  *	Taustapalikka, jota käytetään luolissa luomaan luolamainen tunnelma. Ei erityisominaisuuksia.
 
 ## Piste-ennätykset -näkymä
 Näkymän kautta pelaaja pääsee tarkastelemaan kyseisen kentän piste-ennätyksiä. Näkymän yläreunassa olevasta palkista pelaaja voi vaihtaa näytettävien piste-ennätyksien vaikeusastetta kyseisestä kentästä, koska jokaisen vaikeusasteen piste-ennätykset tallennetaan erikseen.
