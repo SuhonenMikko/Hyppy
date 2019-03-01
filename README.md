@@ -1,6 +1,6 @@
 # Hyppy
 
-## Kentän valinta-näkymä
+## Kentän valinta -näkymä
 Yläpalkissa pelaaja voi valita vaikeusasteen tai siirtyä kentän tuonti -näkymään.
 
 ### Vaikeusasteet
@@ -23,7 +23,7 @@ Kentän luonti onnistuu lähes millä tahansa kuvanmuokkausohjelmalla. Halutun p
 
 ### Omien kenttien tuominen
 Pelaajan luomia kenttiä päästään pelaamaan kahdella eri tavalla:
-1. Valitsemalla haluttu vaikeusaste kentän tuonti-valikon alareunasta ja valitsemalla ”Upload”-painike. Tämän jälkeen pelaaja valitsee haluamansa kentän ja viimeistelee tuonnin ”Open”-painiketta painamalla.
+1. Valitsemalla haluttu vaikeusaste kentän tuonti -valikon alareunasta ja valitsemalla ”Upload”-painike. Tämän jälkeen pelaaja valitsee haluamansa kentän ja viimeistelee tuonnin ”Open”-painiketta painamalla.
 2. Pelaaja tallentaa luomansa kentän sijaintiin ”C:/temp/Hyppy/levels”. Kyseisessä sijainnissa olevat kentät tuodaan peliin automaattisesti seuraavan kerran, kun pelaaja siirtyy kentän valinta-näkymään. Tämän jälkeen pelaaja valitsee oman kenttänsä kenttäluettelosta aivan kuten oletuskenttiä.
 
 
@@ -32,9 +32,9 @@ Pelaajan luomia kenttiä päästään pelaamaan kahdella eri tavalla:
 ### Palikan tyypit ja niiden ominaisuudet
 Pelissä palikat voivat olla joko taustapalikoita tai kiinteitä palikoita. Kiinteät palikat törmäävät pelaajan kanssa ja estävät pelaajaa liikkumasta eteenpäin. Taustapalikat ovat vain ulkonäöllisiä, eivätkä ne vaikuta pelaajan liikkumiseen.
 
-#### BgAir	
+#### BgAir
 * Pelin oletustaustapalikka.
-#### BgCastle	
+#### BgCastle
 *	CastleBrick-palikan tyylinen taustapalikka
 #### BgStone	
 *	Luolissa käytettävä taustapalikka
@@ -54,7 +54,7 @@ Pelissä palikat voivat olla joko taustapalikoita tai kiinteitä palikoita. Kiin
 #### ElevatorVer	
 *	Pystysuunnassa liikkuva hissi-palikka. Palikka liikkuu hissin luonti kohdasta 5 palikkaa alaspäin, minkä jälkeen hissin suunta vaihtuu käänteiseksi. Kun hissi saavuttaa luontisijaintinsa käännetään suunta uudelleen. Tämä sykli toistuu koko pelin ajan.
 #### Enemy	
-*	Palikka liikkuu luontisuunnasta 5 palikkaa oikealle, jonka jälkeen suunta vaihtuu käänteiseksi ja palikka jatkaa liikkumista vasemmalle, kunnes saavuttaa luontisijainnista 5 palikkaa vasemmalle olevan kohdan. Tämän jälkeen suunta vaihtuu uudelleen. Tämä sykli toistuu koko pelin ajan. Pelaajan koskettaessa Enemy-palikkaa peli päättyy.
+*	Palikka liikkuu luontisuunnasta 5 palikkaa oikealle, jonka jälkeen suunta vaihtuu käänteiseksi ja palikka jatkaa liikkumista vasemmalle, kunnes saavuttaa luontisijainnista 5 palikkaa vasemmalla olevan kohdan. Tämän jälkeen suunta vaihtuu uudelleen. Tämä sykli toistuu koko pelin ajan. Pelaajan koskettaessa Enemy-palikkaa peli päättyy.
 #### Goal	
 *	Pelin tavoitteena pelaajan on päästä mahdollisimman nopeasti kosketuksiin maali-palikkaan. Koskettaessa Maali-palikkaa peli päättyy ja nykyinen suoritusaika tallennetaan piste-ennätyksiin.
 #### Grass	
@@ -74,7 +74,7 @@ Pelissä palikat voivat olla joko taustapalikoita tai kiinteitä palikoita. Kiin
 #### Torch	
 *	Taustapalikka, jota käytetään luolissa luomaan luolamainen tunnelma. Ei erityisominaisuuksia.
 
-## Kentän valinta-näkymä
+## Piste-ennätykset -näkymä
 Näkymän kautta pelaaja pääsee tarkastelemaan kyseisen kentän piste-ennätyksiä. Näkymän yläreunassa olevasta palkista pelaaja voi vaihtaa näytettävien piste-ennätyksien vaikeusastetta kyseisestä kentästä, koska jokaisen vaikeusasteen piste-ennätykset tallennetaan erikseen.
 ![Alt text](readme-images/4.png?raw=true "Piste-ennätykset")
 
@@ -85,7 +85,7 @@ Pelissä käytetään seuraavia painikkeita:
 *	A - Liiku vasemmalle
 *	D - Liiku oikealle
 *	R - Aloita pelattu taso alusta
-* ESCAPE - Palaa takaisin kentän valinta-näkymään
+* ESCAPE - Palaa takaisin kentän valinta -näkymään
 Pelinäkymän yläreunassa näkyy tämän hetkinen suoritusaika ja kerättävien kolikoiden määrä, jos kentässä tarvitsee kerätä kolikoita. 
 
 ![Alt text](readme-images/5.png?raw=true "Pelinäkymä")
