@@ -34,10 +34,10 @@ Pelaajan luomia kenttiä päästään pelaamaan kahdella eri tavalla:
 ### Palikan tyypit ja niiden ominaisuudet
 Pelissä palikat voivat olla joko taustapalikoita tai kiinteitä palikoita. Kiinteät palikat törmäävät pelaajan kanssa ja estävät pelaajaa liikkumasta eteenpäin. Taustapalikat ovat vain ulkonäöllisiä, eivätkä ne vaikuta pelaajan liikkumiseen.
 
-#### BgAir
-* Pelin oletustausta palikka.
-#### BgCastle
-*	CastleBrick-palikan tyylinen taustapalikka
+* BgAir
+ * Pelin oletustausta palikka.
+* BgCastle
+ *	CastleBrick-palikan tyylinen taustapalikka
 #### BgStone	
 *	Luolissa käytettävä taustapalikka
 #### Brick	
