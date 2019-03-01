@@ -4,7 +4,7 @@
 Yläpalkissa pelaaja voi valita vaikeusasteen tai siirtyä kentän tuonti -näkymään.
 
 ### Vaikeusasteet
-* Easy (helppo) vaikeusasteella vihollisia eikä kolikoita ei generoida. Brick-palikat hajoavat hitaasti. 
+* Easy (helppo) vihollisia tai kolikoita ei generoida. Brick-palikat hajoavat hitaasti. 
 * Medium (keskivaikea, oletusvaikeusaste) viholliset ja kolikot generoidaan tavalliseen tapaan. Brick-palikat hajoavat tavallisella nopeudella. 
 * Hard (vaikea) kolikot generoidaan tavalliseen tapaan, mutta viholliset liikkuvat kaksinkertaisella nopeudella. Brick-palikat hajoavat nopeasti. 
 
@@ -18,22 +18,24 @@ Kentän tuonti -näkymästä pelaaja pystyy näkemään kaikki pelin eri palikat
 
 ![Alt text](readme-images/2.png?raw=true "Kentän tuonti -näkymä")
 
+### Omien kenttien tuominen
+
 Pelissä kentät generoidaan .bmp-muodossa olevien kuvien avulla. Jokaiselle palikalle on asetettu oma RGB-väriarvo. Kuvassa yksi pikseli vastaa kentän yhtä palikkaa.  
 Kentän luonti onnistuu lähes millä tahansa kuvanmuokkausohjelmalla. Halutun palikan väri syötetään kuvanmuokkausohjelman siveltimen ja aloitetaan piirtäminen. Jokainen kenttä tulee sisältää pelaajan ja maalin, muita rajoituksia kenttien luontiin ei ole. Lopuksi kenttä tallennetaan .bmp-muodossa haluttuun sijaintiin. 
 
-### Omien kenttien tuominen
+![Alt text](readme-images/3.png?raw=true "Kentän luonti")
+
 Pelaajan luomia kenttiä päästään pelaamaan kahdella eri tavalla:
 1. Valitsemalla haluttu vaikeusaste kentän tuonti -valikon alareunasta ja valitsemalla ”Upload”-painike. Tämän jälkeen pelaaja valitsee haluamansa kentän ja viimeistelee tuonnin ”Open”-painiketta painamalla.
 2. Pelaaja tallentaa luomansa kentän sijaintiin ”C:/temp/Hyppy/levels”. Kyseisessä sijainnissa olevat kentät tuodaan peliin automaattisesti seuraavan kerran, kun pelaaja siirtyy kentän valinta-näkymään. Tämän jälkeen pelaaja valitsee oman kenttänsä kenttäluettelosta aivan kuten oletuskenttiä.
 
 
-![Alt text](readme-images/3.png?raw=true "Kentän luonti")
 
 ### Palikan tyypit ja niiden ominaisuudet
 Pelissä palikat voivat olla joko taustapalikoita tai kiinteitä palikoita. Kiinteät palikat törmäävät pelaajan kanssa ja estävät pelaajaa liikkumasta eteenpäin. Taustapalikat ovat vain ulkonäöllisiä, eivätkä ne vaikuta pelaajan liikkumiseen.
 
 #### BgAir
-* Pelin oletustaustapalikka.
+* Pelin oletustausta palikka.
 #### BgCastle
 *	CastleBrick-palikan tyylinen taustapalikka
 #### BgStone	
@@ -56,9 +58,9 @@ Pelissä palikat voivat olla joko taustapalikoita tai kiinteitä palikoita. Kiin
 #### Enemy	
 *	Palikka liikkuu luontisuunnasta 5 palikkaa oikealle, jonka jälkeen suunta vaihtuu käänteiseksi ja palikka jatkaa liikkumista vasemmalle, kunnes saavuttaa luontisijainnista 5 palikkaa vasemmalla olevan kohdan. Tämän jälkeen suunta vaihtuu uudelleen. Tämä sykli toistuu koko pelin ajan. Pelaajan koskettaessa Enemy-palikkaa peli päättyy.
 #### Goal	
-*	Pelin tavoitteena pelaajan on päästä mahdollisimman nopeasti kosketuksiin maali-palikkaan. Koskettaessa Maali-palikkaa peli päättyy ja nykyinen suoritusaika tallennetaan piste-ennätyksiin.
+*	Pelin tavoitteena pelaajan on päästä mahdollisimman nopeasti kosketuksiin maali-palikkaan. Koskettaessa Goal-palikkaa peli päättyy ja nykyinen suoritusaika tallennetaan piste-ennätyksiin.
 #### Grass	
-*	Kiinteä palikka, jota käytetään maanpinnassa oleviin palikoihin, jos maan alla olevat palikat ovat dirt-palikoita. Tällä saadaan luotua alue, jossa on multaa sekä ruohoa.
+*	Kiinteä palikka, jota käytetään maanpinnassa oleviin palikoihin, jos maan alla olevat palikat ovat Dirt-palikoita. Tällä saadaan luotua alue, jossa on multaa sekä ruohoa.
 #### Lava	
 *	Tappava laava. Pelaajan koskettaessa laavaa peli päättyy.
 #### LavaBrick	
@@ -86,7 +88,8 @@ Pelissä käytetään seuraavia painikkeita:
 *	D - Liiku oikealle
 *	R - Aloita pelattu taso alusta
 * ESCAPE - Palaa takaisin kentän valinta -näkymään
-Pelinäkymän yläreunassa näkyy tämän hetkinen suoritusaika ja kerättävien kolikoiden määrä, jos kentässä tarvitsee kerätä kolikoita. 
+
+Pelinäkymän yläreunassa näytetään tämän hetkinen suoritusaika ja kerättyjen ja kerättävien kolikoiden määrä, jos kentässä on kolikoita. 
 
 ![Alt text](readme-images/5.png?raw=true "Pelinäkymä")
 
